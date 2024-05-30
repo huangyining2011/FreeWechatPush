@@ -8,14 +8,14 @@ from bs4 import BeautifulSoup
 
 
 # 从测试号信息获取
-appID = ""
-appSecret = ""
+appID = "wxeb5632930ab157d2"
+appSecret = "f9f24a04fe4b3f14f4f66cd836fbf9c8"
 #收信人ID即 用户列表中的微信号，见上文
-openId = ""
+openId = "ok2bM6GZBnwPaCv7LLs5FCEj0HGs"
 # 天气预报模板ID
-weather_template_id = ""
+weather_template_id = "	dbxhfX-PzdJIdspiS43oF0MukU0nWqJr2gFhUNTkaaA"
 # 时间表模板ID
-timetable_template_id = ""
+timetable_template_id = "Uy4-flexp5ESDZPvq7Mbo42_V6KdXI3RZXqJYNwrBBA"
 
 
 def get_weather(my_city):
